@@ -6,7 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@types/nunjucks": "^3.2.3",
+    "concurrently": "^8.2.1",
+    "elysia": "latest",
+    "nunjucks": "^3.2.4",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
     "bun-types": "latest"
